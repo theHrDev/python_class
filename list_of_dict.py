@@ -9,6 +9,10 @@ for std in students:
     print(f"My name is {std["name"]} studying {std["dept"]} at {std["school"]}")
     
 print(students[0].keys())
+print(students[0].items())
+
+for student in students:
+    print(student)
 
 
 # students[1]["school"] = "Uniosun"
